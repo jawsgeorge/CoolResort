@@ -1,3 +1,5 @@
+CREATE SCHEMA `ht` ;
+
 CREATE TABLE `user_table` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `name` varchar(100) DEFAULT NULL,
@@ -61,3 +63,5 @@ CREATE TABLE `t_dtl_cuisine` (
   `paystatus` varchar(1) DEFAULT NULL,
   PRIMARY KEY (`id`)
 );
+
+INSERT INTO `user_table` VALUES (1,'vignesh','vignesh','G'),(2,'george','george','g'),(3,'admin','admin','A');
